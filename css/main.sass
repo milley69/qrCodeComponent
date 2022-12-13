@@ -1,0 +1,55 @@
+// main.sass
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap')
+
+$white: hsl(0, 0%, 100%)
+$light-gray: hsl(212, 45%, 89%)
+$grayish-blue: hsl(220, 15%, 55%)
+$dark-blue: hsl(218, 44%, 22%)
+
+*, *:after, *:before
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+body
+  font-size: 15px
+  font-family: 'Outfit', sans-serif
+  background-color: $light-gray
+  width: 100%
+
+.container
+  width: 100%
+  padding: 0 calc(50% - 590px)
+  display: flex
+  height: 100vh
+
+  align-items: center
+  justify-content: center
+
+.card
+  background-color: $white
+  max-width: 320px
+  border-radius: 18px
+
+.qr
+  padding: 16px 16px 0
+
+  img
+    max-width: 100%
+    height: auto
+    border-radius: 11px
+.title h2
+  color: $dark-blue
+  text-align: center
+  margin-top: 24px
+  font-weight: 700
+  padding: 0 16px
+
+.sub-title p
+  margin-top: 13px
+  color: $grayish-blue
+  text-align: center
+  font-weight: 400
+  padding: 0 30px
+  margin-bottom: 33px
+
