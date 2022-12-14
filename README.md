@@ -22,14 +22,13 @@
 
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 700
+
 ## Authors
 
 - [@milley](https://github.com/milley69)
 
-
 ## 🛠 Skills
-Javascript, HTML, CSS...
-
+Javascript, HTML, CSS, Sass/Scss,
 
 ## Other Common Github Profile Sections
 👩‍💻 I'm currently working on...
